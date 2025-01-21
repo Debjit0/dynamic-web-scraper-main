@@ -123,10 +123,10 @@ const Search = () => {
       </div>
 
       {/* Display second call review */}
-      <Code color="secondary" className="max-w-xl mt-6">
+      <Code color="default" className="max-w-4xl mt-6">
         {review && (
           <div className="mt-4">
-            <h1 className="font-bold">API Response:</h1>
+            <h1 className="font-bold">OUTPUT:</h1>
             <pre className="text-wrap">{JSON.stringify(review, null, 2)}</pre>
           </div>
         )}
